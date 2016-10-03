@@ -5,6 +5,23 @@ Perform email address validation/verification via SMTP.
 The class retrieves MX records for the email domain and then connects to the
 domain's SMTP server to try figuring out if the address really exists.
 
+
+### How to install with composer
+
+Add to you composer.json file this code
+
+```json
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Besmer/smtp-validate-email"
+    }
+  ],
+  "require": {
+    "smtp-validate-email/smtp-validate-email": "dev-master"
+  },
+```
+
 ### Some features (see the source for more)
 
 * Not really sending a message, gracefully resetting the session when done

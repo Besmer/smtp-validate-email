@@ -1,8 +1,8 @@
 {
-    "name": "robdudley/smtp-validate-email",
+    "name": "smtp-validate-email/smtp-validate-email",
     "description": "Validates an email address by checking for MX records and performing and SMTP triplet connection",
     "keywords": ["email","smtp", "validation"],
-    "homepage": "https://github.com/robdudley/smtp-validate-email",
+    "homepage": "https://github.com/zytzagoo/smtp-validate-email",
     "license": "MIT",
     "type": "library",
     "license": "GPL-3.0",
